@@ -1,0 +1,23 @@
+content	firesizer	      chrome/content/
+locale	 firesizer	ca-AD chrome/locale/ca-AD/
+locale	 firesizer	cs-CZ chrome/locale/cs-CZ/
+locale		firesizer	de-DE	chrome/locale/de-DE/
+locale		firesizer	en-US	chrome/locale/en-US/
+locale		firesizer	es-ES	chrome/locale/es-ES/
+locale		firesizer	fr-FR	chrome/locale/fr-FR/
+locale		firesizer	hu-HU	chrome/locale/hu-HU/
+locale		firesizer	it-IT	chrome/locale/it-IT/
+locale		firesizer	ja-JP	chrome/locale/ja-JP/
+locale		firesizer	ko-KR	chrome/locale/ko-KR/
+locale		firesizer	mk-MK	chrome/locale/mk-MK/
+locale		firesizer	nl-NL	chrome/locale/nl-NL/
+locale		firesizer	pl	   chrome/locale/pl/
+locale		firesizer	pl-PL	chrome/locale/pl-PL/
+locale		firesizer	pt-BR	chrome/locale/pt-BR/
+locale		firesizer	sr-RS	chrome/locale/sr-RS/
+locale		firesizer	sr-RS	chrome/locale/sv-SE/
+locale		firesizer	tr-TR	chrome/locale/tr-TR/
+locale		firesizer	vi-VN	chrome/locale/vi-VN/
+locale		firesizer	zh-CN	chrome/locale/zh-CN/
+locale		firesizer	zh-TW	chrome/locale/zh-TW/
+overlay	chrome://browser/content/browser.xul	chrome://firesizer/content/firesizer.xul

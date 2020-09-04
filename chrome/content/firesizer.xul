@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<overlay id="firesizer" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://firesizer/content/common.js"></script>
+	<script type="application/x-javascript" src="chrome://firesizer/content/firesizer.js"></script>
+	<statusbar id="status-bar">
+		<statusbarpanel id="firesizer-statuspanel" label="Firesizer" context="firesizer-statuspanel-menu" />
+		<popupset>
+   <menupopup id="firesizer-statuspanel-menu"
+    position="before_end"
+    onpopupshowing="firesizer.ShowMenu()" />
+		</popupset>
+	</statusbar>
+</overlay>
