@@ -1,9 +1,9 @@
-var firesizer_customize = {
+var windosize_customize = {
  localeStr: new Array(),
  ReloadCurrentList: function()
  {
-  let labels = firesizer_common.LoadFromPrefs();
-  let listbox = document.getElementById("firesizer-customize-currentlist");
+  let labels = windosize_common.LoadFromPrefs();
+  let listbox = document.getElementById("windosize-customize-currentlist");
   while(listbox.getRowCount() != 0)
   {
    listbox.removeItemAt(0);
@@ -15,56 +15,56 @@ var firesizer_customize = {
  },
  RemoveDimension: function(dimstr)
  {
-  let dimensions = firesizer_common.LoadFromPrefs();
+  let dimensions = windosize_common.LoadFromPrefs();
   let newdimensions = new Array();
   for(let i = 0; i < dimensions.length; i++)
   {
    if(dimensions[i] != dimstr)
     newdimensions[newdimensions.length++] = dimensions[i];
   }
-  firesizer_common.SaveToPrefs(newdimensions);
+  windosize_common.SaveToPrefs(newdimensions);
  },
  LoadLocaleStrings: function()
  {
   let bundleMgr = Components.classes["@mozilla.org/intl/stringbundle;1"].getService(Components.interfaces.nsIStringBundleService);
-  let customizeStrBundle = bundleMgr.createBundle("chrome://firesizer/locale/customize.properties");
-  firesizer_customize.localeStr["SelectDelete"] = customizeStrBundle.GetStringFromName("firesizerSelectItemToDelete");
-  firesizer_customize.localeStr["EnterSize"]    = customizeStrBundle.GetStringFromName("firesizerWidthHeight");
+  let customizeStrBundle = bundleMgr.createBundle("chrome://windosize/locale/customize.properties");
+  windosize_customize.localeStr["SelectDelete"] = customizeStrBundle.GetStringFromName("windosizeSelectItemToDelete");
+  windosize_customize.localeStr["EnterSize"]    = customizeStrBundle.GetStringFromName("windosizeWidthHeight");
  },
  Delete: function()
  {
-  let listbox = document.getElementById("firesizer-customize-currentlist");
+  let listbox = document.getElementById("windosize-customize-currentlist");
   if(listbox.selectedItem == null)
   {
-   alert(firesizer_customize.localeStr["SelectDelete"]);
+   alert(windosize_customize.localeStr["SelectDelete"]);
    return;
   }
-  firesizer_customize.RemoveDimension(listbox.selectedItem.label);
-  firesizer_customize.ReloadCurrentList();
+  windosize_customize.RemoveDimension(listbox.selectedItem.label);
+  windosize_customize.ReloadCurrentList();
  },
  ListKeypress: function(evt)
  {
   if(evt.keyCode == 46)
   {
-   firesizer_customize.Delete();
+   windosize_customize.Delete();
    return false;
   }
   return true;
  },
  Add: function()
  {
-  let width  = document.getElementById("firesizer-customize-addwidth");
-  let height = document.getElementById("firesizer-customize-addheight");
+  let width  = document.getElementById("windosize-customize-addwidth");
+  let height = document.getElementById("windosize-customize-addheight");
   width.value.replace(/\D+/g, '');
   height.value.replace(/\D+/g, '');
-  if(firesizer_common.isEmpty(width.value) || firesizer_common.isEmpty(height.value))
+  if(windosize_common.isEmpty(width.value) || windosize_common.isEmpty(height.value))
   {
-   alert(firesizer_customize.localeStr["EnterSize"]);
+   alert(windosize_customize.localeStr["EnterSize"]);
    return;
   }
-  let listbox = document.getElementById("firesizer-customize-currentlist");
-  firesizer_common.AddDimension(width.value, height.value);
-  firesizer_customize.ReloadCurrentList();
+  let listbox = document.getElementById("windosize-customize-currentlist");
+  windosize_common.AddDimension(width.value, height.value);
+  windosize_customize.ReloadCurrentList();
   width.value = "";
   height.value = "";
  },
@@ -78,8 +78,8 @@ var firesizer_customize = {
  },
  DoOnLoad: function()
  {
-  firesizer_customize.LoadLocaleStrings();
-  firesizer_customize.ReloadCurrentList();
+  windosize_customize.LoadLocaleStrings();
+  windosize_customize.ReloadCurrentList();
  }
 };
-window.addEventListener("load", firesizer_customize.DoOnLoad, false);
+window.addEventListener("load", windosize_customize.DoOnLoad, false);

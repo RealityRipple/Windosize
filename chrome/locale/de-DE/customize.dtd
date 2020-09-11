@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "Firesizer anpassen">
-<!ENTITY firesizer.customize.currentsizes "Aktuelle Auflösungen">
-<!ENTITY firesizer.customize.deletebutton "Löschen">
-<!ENTITY firesizer.customize.deletekey "L">
-<!ENTITY firesizer.customize.addsize "Auflösung hinzufügen">
-<!ENTITY firesizer.customize.addbutton "Hinzufügen">
-<!ENTITY firesizer.customize.addkey "H">
+<!ENTITY windosize.customize.title "Windosize anpassen">
+<!ENTITY windosize.customize.currentsizes "Aktuelle Auflösungen">
+<!ENTITY windosize.customize.deletebutton "Löschen">
+<!ENTITY windosize.customize.deletekey "L">
+<!ENTITY windosize.customize.addsize "Auflösung hinzufügen">
+<!ENTITY windosize.customize.addbutton "Hinzufügen">
+<!ENTITY windosize.customize.addkey "H">

@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "Anpassa Firesizer">
-<!ENTITY firesizer.customize.currentsizes "Befintliga storlekar">
-<!ENTITY firesizer.customize.deletebutton "Ta bort">
-<!ENTITY firesizer.customize.deletekey "T">
-<!ENTITY firesizer.customize.addsize "Lägg till storlek (b × h)">
-<!ENTITY firesizer.customize.addbutton "Lägg till">
-<!ENTITY firesizer.customize.addkey "L">
+<!ENTITY windosize.customize.title "Anpassa Windosize">
+<!ENTITY windosize.customize.currentsizes "Befintliga storlekar">
+<!ENTITY windosize.customize.deletebutton "Ta bort">
+<!ENTITY windosize.customize.deletekey "T">
+<!ENTITY windosize.customize.addsize "Lägg till storlek (b × h)">
+<!ENTITY windosize.customize.addbutton "Lägg till">
+<!ENTITY windosize.customize.addkey "L">

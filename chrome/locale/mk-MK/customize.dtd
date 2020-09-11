@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "Прилагоди го Firesizer">
-<!ENTITY firesizer.customize.currentsizes "Моментални Големини">
-<!ENTITY firesizer.customize.deletebutton "Избриши">
-<!ENTITY firesizer.customize.deletekey "И">
-<!ENTITY firesizer.customize.addsize "Додади Големина">
-<!ENTITY firesizer.customize.addbutton "Додади">
-<!ENTITY firesizer.customize.addkey "Д">
+<!ENTITY windosize.customize.title "Прилагоди го Windosize">
+<!ENTITY windosize.customize.currentsizes "Моментални Големини">
+<!ENTITY windosize.customize.deletebutton "Избриши">
+<!ENTITY windosize.customize.deletekey "И">
+<!ENTITY windosize.customize.addsize "Додади Големина">
+<!ENTITY windosize.customize.addbutton "Додади">
+<!ENTITY windosize.customize.addkey "Д">

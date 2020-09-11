@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
  <Description about="urn:mozilla:install-manifest">
-  <em:name>Firesizer</em:name>
-  <em:id>{E9564685-E9DE-5F95-9A17-447E60DCE62E}</em:id>
-  <em:version>1.8</em:version>
+  <em:name>Windosize</em:name>
+  <em:id>{8DA26D99-C9FC-53AF-A172-AA78417EB721}</em:id>
+  <em:version>1.9</em:version>
 	 <em:type>2</em:type>
   <!-- Pale Moon -->
   <em:targetApplication>
@@ -14,9 +14,9 @@
    </Description>
   </em:targetApplication>
   <em:description>Provides a menu and status bar to resize the window outer dimensions to a specific size.</em:description>
-  <em:homepageURL>https://realityripple.com/Software/Mozilla-Extensions/Firesizer/</em:homepageURL>
-  <em:updateURL>https://realityripple.com/Software/Mozilla-Extensions/Firesizer/update.rdf</em:updateURL>
-	 <em:optionsURL>chrome://firesizer/content/customize.xul</em:optionsURL>
+  <em:homepageURL>https://realityripple.com/Software/Mozilla-Extensions/Windosize/</em:homepageURL>
+  <em:updateURL>https://realityripple.com/Software/Mozilla-Extensions/Windosize/update.rdf</em:updateURL>
+	 <em:optionsURL>chrome://windosize/content/customize.xul</em:optionsURL>
   <em:creator>RealityRipple</em:creator>
   <em:contributor>Brian Mathis</em:contributor>
  </Description>

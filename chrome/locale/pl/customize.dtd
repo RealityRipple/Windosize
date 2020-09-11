@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "Customize Firesizer">
-<!ENTITY firesizer.customize.currentsizes "Dostępne wielkości okna">
-<!ENTITY firesizer.customize.deletebutton "Usuń">
-<!ENTITY firesizer.customize.deletekey "U">
-<!ENTITY firesizer.customize.addsize "Dodaj wielkość">
-<!ENTITY firesizer.customize.addbutton "Dodaj">
-<!ENTITY firesizer.customize.addkey "D">
+<!ENTITY windosize.customize.title "Customize Windosize">
+<!ENTITY windosize.customize.currentsizes "Dostępne wielkości okna">
+<!ENTITY windosize.customize.deletebutton "Usuń">
+<!ENTITY windosize.customize.deletekey "U">
+<!ENTITY windosize.customize.addsize "Dodaj wielkość">
+<!ENTITY windosize.customize.addbutton "Dodaj">
+<!ENTITY windosize.customize.addkey "D">

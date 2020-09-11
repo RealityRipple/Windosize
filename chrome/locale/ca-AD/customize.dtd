@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "Personalitza Firesizer">
-<!ENTITY firesizer.customize.currentsizes "Tamanys actuals">
-<!ENTITY firesizer.customize.deletebutton "Esborra">
-<!ENTITY firesizer.customize.deletekey "E">
-<!ENTITY firesizer.customize.addsize "Afegeix Tamany">
-<!ENTITY firesizer.customize.addbutton "Afegeix">
-<!ENTITY firesizer.customize.addkey "A">
+<!ENTITY windosize.customize.title "Personalitza Windosize">
+<!ENTITY windosize.customize.currentsizes "Tamanys actuals">
+<!ENTITY windosize.customize.deletebutton "Esborra">
+<!ENTITY windosize.customize.deletekey "E">
+<!ENTITY windosize.customize.addsize "Afegeix Tamany">
+<!ENTITY windosize.customize.addbutton "Afegeix">
+<!ENTITY windosize.customize.addkey "A">

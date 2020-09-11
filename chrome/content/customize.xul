@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
-<!DOCTYPE dialog SYSTEM "chrome://firesizer/locale/customize.dtd">
+<!DOCTYPE dialog SYSTEM "chrome://windosize/locale/customize.dtd">
 <dialog
- id="firesizer-customize-dialog"
- title="&firesizer.customize.title;"
+ id="windosize-customize-dialog"
+ title="&windosize.customize.title;"
 	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
 	buttons="accept"
 	defaultButton="none">
-	<script type="application/x-javascript" src="chrome://firesizer/content/common.js" />
-	<script type="application/x-javascript" src="chrome://firesizer/content/customize.js" />
-	<groupbox id="firesizer-customize-currentgroup">
-		<caption label="&firesizer.customize.currentsizes;" />
-		<listbox id="firesizer-customize-currentlist" rows="5" seltype="single"
-			onkeypress="firesizer_customize.ListKeypress(event);" />
+	<script type="application/x-javascript" src="chrome://windosize/content/common.js" />
+	<script type="application/x-javascript" src="chrome://windosize/content/customize.js" />
+	<groupbox id="windosize-customize-currentgroup">
+		<caption label="&windosize.customize.currentsizes;" />
+		<listbox id="windosize-customize-currentlist" rows="5" seltype="single"
+			onkeypress="windosize_customize.ListKeypress(event);" />
 		<hbox align="right">
-			<button id="firesizer-customize-deletebutton"
-				label="&firesizer.customize.deletebutton;"
-				accesskey="&firesizer.customize.deletekey;"
-				oncommand="firesizer_customize.Delete();" />
+			<button id="windosize-customize-deletebutton"
+				label="&windosize.customize.deletebutton;"
+				accesskey="&windosize.customize.deletekey;"
+				oncommand="windosize_customize.Delete();" />
 		</hbox>
 	</groupbox>
-	<groupbox id="firesizer-customize-addgroup">
-		<caption label="&firesizer.customize.addsize;" />
+	<groupbox id="windosize-customize-addgroup">
+		<caption label="&windosize.customize.addsize;" />
 		<hbox align="center">
-			<textbox id="firesizer-customize-addwidth"  style="text-align:center;" size="5"
-				onkeypress="return firesizer_customize.NumberOnly(event);" />
+			<textbox id="windosize-customize-addwidth"  style="text-align:center;" size="5"
+				onkeypress="return windosize_customize.NumberOnly(event);" />
 			<label value="x" />
-			<textbox id="firesizer-customize-addheight" style="text-align:center;" size="5"
-				onkeypress="return firesizer_customize.NumberOnly(event);" />
-			<button id="firesizer-customize-addbutton"
-				label="&firesizer.customize.addbutton;"
-				accesskey="&firesizer.customize.addkey;" 
-				oncommand="firesizer_customize.Add();" />
+			<textbox id="windosize-customize-addheight" style="text-align:center;" size="5"
+				onkeypress="return windosize_customize.NumberOnly(event);" />
+			<button id="windosize-customize-addbutton"
+				label="&windosize.customize.addbutton;"
+				accesskey="&windosize.customize.addkey;" 
+				oncommand="windosize_customize.Add();" />
 		</hbox>
 	</groupbox>
 </dialog>

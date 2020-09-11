@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "Configurar Firesizer">
-<!ENTITY firesizer.customize.currentsizes "Tamanho corrente">
-<!ENTITY firesizer.customize.deletebutton "Apagar">
-<!ENTITY firesizer.customize.deletekey "D">
-<!ENTITY firesizer.customize.addsize "Adicionar Tamanha">
-<!ENTITY firesizer.customize.addbutton "Adicionar">
-<!ENTITY firesizer.customize.addkey "A">
+<!ENTITY windosize.customize.title "Configurar Windosize">
+<!ENTITY windosize.customize.currentsizes "Tamanho corrente">
+<!ENTITY windosize.customize.deletebutton "Apagar">
+<!ENTITY windosize.customize.deletekey "D">
+<!ENTITY windosize.customize.addsize "Adicionar Tamanha">
+<!ENTITY windosize.customize.addbutton "Adicionar">
+<!ENTITY windosize.customize.addkey "A">

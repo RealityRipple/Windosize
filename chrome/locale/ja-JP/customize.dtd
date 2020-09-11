@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title		"Firesizerのカスタマイズ">
-<!ENTITY firesizer.customize.currentsizes	"サイズ一覧">
-<!ENTITY firesizer.customize.deletebutton	"削除">
-<!ENTITY firesizer.customize.deletekey		"D">
-<!ENTITY firesizer.customize.addsize		"サイズの追加">
-<!ENTITY firesizer.customize.addbutton		"追加">
-<!ENTITY firesizer.customize.addkey		"A">
+<!ENTITY windosize.customize.title		"Windosizeのカスタマイズ">
+<!ENTITY windosize.customize.currentsizes	"サイズ一覧">
+<!ENTITY windosize.customize.deletebutton	"削除">
+<!ENTITY windosize.customize.deletekey		"D">
+<!ENTITY windosize.customize.addsize		"サイズの追加">
+<!ENTITY windosize.customize.addbutton		"追加">
+<!ENTITY windosize.customize.addkey		"A">

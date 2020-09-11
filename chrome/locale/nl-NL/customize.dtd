@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "Firesizer aanpassen">
-<!ENTITY firesizer.customize.currentsizes "Huidige groottes">
-<!ENTITY firesizer.customize.deletebutton "Verwijderen">
-<!ENTITY firesizer.customize.deletekey "w">
-<!ENTITY firesizer.customize.addsize "Grootte toevoegen">
-<!ENTITY firesizer.customize.addbutton "Toevoegen">
-<!ENTITY firesizer.customize.addkey "T">
+<!ENTITY windosize.customize.title "Windosize aanpassen">
+<!ENTITY windosize.customize.currentsizes "Huidige groottes">
+<!ENTITY windosize.customize.deletebutton "Verwijderen">
+<!ENTITY windosize.customize.deletekey "w">
+<!ENTITY windosize.customize.addsize "Grootte toevoegen">
+<!ENTITY windosize.customize.addbutton "Toevoegen">
+<!ENTITY windosize.customize.addkey "T">

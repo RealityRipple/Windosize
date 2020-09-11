@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "Firesizer testreszabása">
-<!ENTITY firesizer.customize.currentsizes "Jelenlegi méretek">
-<!ENTITY firesizer.customize.deletebutton "Törlés">
-<!ENTITY firesizer.customize.deletekey "D">
-<!ENTITY firesizer.customize.addsize "Méret hozzáadása">
-<!ENTITY firesizer.customize.addbutton "Hozzáadás">
-<!ENTITY firesizer.customize.addkey "A">
+<!ENTITY windosize.customize.title "Windosize testreszabása">
+<!ENTITY windosize.customize.currentsizes "Jelenlegi méretek">
+<!ENTITY windosize.customize.deletebutton "Törlés">
+<!ENTITY windosize.customize.deletekey "D">
+<!ENTITY windosize.customize.addsize "Méret hozzáadása">
+<!ENTITY windosize.customize.addbutton "Hozzáadás">
+<!ENTITY windosize.customize.addkey "A">

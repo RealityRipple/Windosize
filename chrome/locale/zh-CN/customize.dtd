@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "定制 Firesizer">
-<!ENTITY firesizer.customize.currentsizes "现有尺寸">
-<!ENTITY firesizer.customize.deletebutton "删除">
-<!ENTITY firesizer.customize.deletekey "D">
-<!ENTITY firesizer.customize.addsize "增加尺寸">
-<!ENTITY firesizer.customize.addbutton "增加">
-<!ENTITY firesizer.customize.addkey "A">
+<!ENTITY windosize.customize.title "定制 Windosize">
+<!ENTITY windosize.customize.currentsizes "现有尺寸">
+<!ENTITY windosize.customize.deletebutton "删除">
+<!ENTITY windosize.customize.deletekey "D">
+<!ENTITY windosize.customize.addsize "增加尺寸">
+<!ENTITY windosize.customize.addbutton "增加">
+<!ENTITY windosize.customize.addkey "A">

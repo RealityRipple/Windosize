@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "Tùy biến Firesizer">
-<!ENTITY firesizer.customize.currentsizes "Kích thước Hiện tại">
-<!ENTITY firesizer.customize.deletebutton "Xóa">
-<!ENTITY firesizer.customize.deletekey "X">
-<!ENTITY firesizer.customize.addsize "Thêm kích thước">
-<!ENTITY firesizer.customize.addbutton "Thêm">
-<!ENTITY firesizer.customize.addkey "T">
+<!ENTITY windosize.customize.title "Tùy biến Windosize">
+<!ENTITY windosize.customize.currentsizes "Kích thước Hiện tại">
+<!ENTITY windosize.customize.deletebutton "Xóa">
+<!ENTITY windosize.customize.deletekey "X">
+<!ENTITY windosize.customize.addsize "Thêm kích thước">
+<!ENTITY windosize.customize.addbutton "Thêm">
+<!ENTITY windosize.customize.addkey "T">

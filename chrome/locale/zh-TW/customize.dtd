@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "偏好設定">
-<!ENTITY firesizer.customize.currentsizes "已儲存的數值">
-<!ENTITY firesizer.customize.deletebutton "刪除">
-<!ENTITY firesizer.customize.deletekey "D">
-<!ENTITY firesizer.customize.addsize "自訂數值">
-<!ENTITY firesizer.customize.addbutton "加入">
-<!ENTITY firesizer.customize.addkey "A">
+<!ENTITY windosize.customize.title "偏好設定">
+<!ENTITY windosize.customize.currentsizes "已儲存的數值">
+<!ENTITY windosize.customize.deletebutton "刪除">
+<!ENTITY windosize.customize.deletekey "D">
+<!ENTITY windosize.customize.addsize "自訂數值">
+<!ENTITY windosize.customize.addbutton "加入">
+<!ENTITY windosize.customize.addkey "A">

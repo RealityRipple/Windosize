@@ -1,7 +1,7 @@
-<!ENTITY firesizer.customize.title "Firesizer&apos;ı özelleştir">
-<!ENTITY firesizer.customize.currentsizes "Şu Anki Boyutlar">
-<!ENTITY firesizer.customize.deletebutton "Sil">
-<!ENTITY firesizer.customize.deletekey "S">
-<!ENTITY firesizer.customize.addsize "Boyut Ekle">
-<!ENTITY firesizer.customize.addbutton "Ekle">
-<!ENTITY firesizer.customize.addkey "E">
+<!ENTITY windosize.customize.title "Windosize&apos;ı özelleştir">
+<!ENTITY windosize.customize.currentsizes "Şu Anki Boyutlar">
+<!ENTITY windosize.customize.deletebutton "Sil">
+<!ENTITY windosize.customize.deletekey "S">
+<!ENTITY windosize.customize.addsize "Boyut Ekle">
+<!ENTITY windosize.customize.addbutton "Ekle">
+<!ENTITY windosize.customize.addkey "E">

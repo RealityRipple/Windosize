@@ -1,32 +1,32 @@
-var firesizer_common = {
+var windosize_common = {
  LoadFromPrefs: function()
  {
   let prefMgr = Components.classes["@mozilla.org/preferences-service;1"].
    getService(Components.interfaces.nsIPrefService);
-  let prefs = prefMgr.getBranch("extensions.firesizer.dimensionlist.");
+  let prefs = prefMgr.getBranch("extensions.windosize.dimensionlist.");
   let dimensionlist = prefs.getCharPref("outer");
   let dimensions = dimensionlist.split(";");
-  dimensions.sort(firesizer_common.SortByLabel);
+  dimensions.sort(windosize_common.SortByLabel);
   return dimensions;
  },
  SaveToPrefs: function(dimensions)
  {
-  dimensions = firesizer_common.deDupe(dimensions);
-  dimensions.sort(firesizer_common.SortByLabel);
+  dimensions = windosize_common.deDupe(dimensions);
+  dimensions.sort(windosize_common.SortByLabel);
   let prefMgr = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService);
-  let prefs = prefMgr.getBranch("extensions.firesizer.dimensionlist.");
+  let prefs = prefMgr.getBranch("extensions.windosize.dimensionlist.");
   prefs.setCharPref("outer", dimensions.join(";"));
  },
  AddDimension: function(width, height)
  {
-  let dimensions = firesizer_common.LoadFromPrefs();
+  let dimensions = windosize_common.LoadFromPrefs();
   dimensions[dimensions.length++] = width + "x" + height;
-  firesizer_common.SaveToPrefs(dimensions);
+  windosize_common.SaveToPrefs(dimensions);
  },
  SortByLabel: function(a, b)
  {
-  let aSqPx = firesizer_common.getSqPx(a);
-  let bSqPx = firesizer_common.getSqPx(b);
+  let aSqPx = windosize_common.getSqPx(a);
+  let bSqPx = windosize_common.getSqPx(b);
   if(aSqPx > bSqPx)
    return 1;
   else if(aSqPx < bSqPx)

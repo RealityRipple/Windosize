@@ -1,4 +1,4 @@
-# Firesizer
+# Windosize
 Allows you to resize the window to specific dimensions.
 
 #### Supports
@@ -8,4 +8,4 @@ Allows you to resize the window to specific dimensions.
 Simply download the contents of the repository and pack the contents (sans git data) into a .zip file. Then, rename the file to .xpi and drag into the browser.
 
 ## Download
-You can grab the latest release from the [Official Web Site](//realityripple.com/Software/Mozilla-Extensions/Firesizer/).
+You can grab the latest release from the [Official Web Site](//realityripple.com/Software/Mozilla-Extensions/Windosize/).
