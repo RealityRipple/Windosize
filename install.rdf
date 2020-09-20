@@ -18,6 +18,6 @@
   <em:updateURL>https://realityripple.com/Software/Mozilla-Extensions/Windosize/update.rdf</em:updateURL>
 	 <em:optionsURL>chrome://windosize/content/customize.xul</em:optionsURL>
   <em:creator>RealityRipple</em:creator>
-  <em:contributor>Brian Mathis</em:contributor>
+  <em:developer>Brian Mathis</em:developer>
  </Description>
 </RDF>
