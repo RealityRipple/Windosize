@@ -1,11 +1,11 @@
 var windosize_common = {
  LoadFromPrefs: function()
  {
-  let prefMgr = Components.classes["@mozilla.org/preferences-service;1"].
+  let prefMgr = Components.classes['@mozilla.org/preferences-service;1'].
    getService(Components.interfaces.nsIPrefService);
-  let prefs = prefMgr.getBranch("extensions.windosize.dimensionlist.");
-  let dimensionlist = prefs.getCharPref("outer");
-  let dimensions = dimensionlist.split(";");
+  let prefs = prefMgr.getBranch('extensions.windosize.dimensionlist.');
+  let dimensionlist = prefs.getCharPref('outer');
+  let dimensions = dimensionlist.split(';');
   dimensions.sort(windosize_common.SortByLabel);
   return dimensions;
  },
@@ -13,14 +13,14 @@ var windosize_common = {
  {
   dimensions = windosize_common.deDupe(dimensions);
   dimensions.sort(windosize_common.SortByLabel);
-  let prefMgr = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService);
-  let prefs = prefMgr.getBranch("extensions.windosize.dimensionlist.");
-  prefs.setCharPref("outer", dimensions.join(";"));
+  let prefMgr = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefService);
+  let prefs = prefMgr.getBranch('extensions.windosize.dimensionlist.');
+  prefs.setCharPref('outer', dimensions.join(';'));
  },
  AddDimension: function(width, height)
  {
   let dimensions = windosize_common.LoadFromPrefs();
-  dimensions[dimensions.length++] = width + "x" + height;
+  dimensions[dimensions.length++] = width + 'x' + height;
   windosize_common.SaveToPrefs(dimensions);
  },
  SortByLabel: function(a, b)
@@ -35,12 +35,12 @@ var windosize_common = {
  },
  deDupe: function(dimensions)
  {
-  let unique = new Object();
+  let unique = {};
   for(let i = 0; i < dimensions.length; i++)
   {
    unique[dimensions[i]] = 1;
   }
-  let result = new Array();
+  let result = [];
   for(let dim in unique)
   {
    result[result.length++] = dim;
@@ -49,12 +49,12 @@ var windosize_common = {
  },
  getSqPx: function(dimstr)
  {
-  let dim = dimstr.split("x");
+  let dim = dimstr.split('x');
   return Number(dim[0]) * Number(dim[1]);
  },
  isEmpty: function(str)
  {
-  if(str == null || str == "")
+  if(str === null || str === '')
    return true; 
   return false;
  }

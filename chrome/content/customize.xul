@@ -4,34 +4,25 @@
 <dialog
  id="windosize-customize-dialog"
  title="&windosize.customize.title;"
-	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-	buttons="accept"
-	defaultButton="none">
-	<script type="application/x-javascript" src="chrome://windosize/content/common.js" />
-	<script type="application/x-javascript" src="chrome://windosize/content/customize.js" />
-	<groupbox id="windosize-customize-currentgroup">
-		<caption label="&windosize.customize.currentsizes;" />
-		<listbox id="windosize-customize-currentlist" rows="5" seltype="single"
-			onkeypress="windosize_customize.ListKeypress(event);" />
-		<hbox align="right">
-			<button id="windosize-customize-deletebutton"
-				label="&windosize.customize.deletebutton;"
-				accesskey="&windosize.customize.deletekey;"
-				oncommand="windosize_customize.Delete();" />
-		</hbox>
-	</groupbox>
-	<groupbox id="windosize-customize-addgroup">
-		<caption label="&windosize.customize.addsize;" />
-		<hbox align="center">
-			<textbox id="windosize-customize-addwidth"  style="text-align:center;" size="5"
-				onkeypress="return windosize_customize.NumberOnly(event);" />
-			<label value="x" />
-			<textbox id="windosize-customize-addheight" style="text-align:center;" size="5"
-				onkeypress="return windosize_customize.NumberOnly(event);" />
-			<button id="windosize-customize-addbutton"
-				label="&windosize.customize.addbutton;"
-				accesskey="&windosize.customize.addkey;" 
-				oncommand="windosize_customize.Add();" />
-		</hbox>
-	</groupbox>
+ xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+ buttons="accept"
+ defaultButton="none">
+ <script src="chrome://windosize/content/common.js"/>
+ <script src="chrome://windosize/content/customize.js"/>
+ <groupbox id="windosize-customize-currentgroup">
+  <caption label="&windosize.customize.currentsizes;"/>
+  <listbox id="windosize-customize-currentlist" rows="5" seltype="single" onkeypress="windosize_customize.ListKeypress(event);"/>
+  <hbox align="right">
+   <button id="windosize-customize-deletebutton" label="&windosize.customize.deletebutton;" accesskey="&windosize.customize.deletekey;" oncommand="windosize_customize.Delete();"/>
+  </hbox>
+ </groupbox>
+ <groupbox id="windosize-customize-addgroup">
+  <caption label="&windosize.customize.addsize;"/>
+  <hbox align="center">
+   <textbox id="windosize-customize-addwidth" style="text-align:center;" size="5" onkeypress="return windosize_customize.NumberOnly(event);"/>
+   <label value="x"/>
+   <textbox id="windosize-customize-addheight" style="text-align:center;" size="5" onkeypress="return windosize_customize.NumberOnly(event);"/>
+   <button id="windosize-customize-addbutton" label="&windosize.customize.addbutton;" accesskey="&windosize.customize.addkey;" oncommand="windosize_customize.Add();"/>
+  </hbox>
+ </groupbox>
 </dialog>

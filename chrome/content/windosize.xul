@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <overlay id="windosize" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	<script type="application/x-javascript" src="chrome://windosize/content/common.js"></script>
-	<script type="application/x-javascript" src="chrome://windosize/content/windosize.js"></script>
-	<statusbar id="status-bar">
-		<statusbarpanel id="windosize-statuspanel" label="Windosize" context="windosize-statuspanel-menu" />
-		<popupset>
-   <menupopup id="windosize-statuspanel-menu"
-    position="before_end"
-    onpopupshowing="windosize.ShowMenu()" />
-		</popupset>
-	</statusbar>
+ <script rc="chrome://windosize/content/common.js"></script>
+ <script src="chrome://windosize/content/windosize.js"></script>
+ <statusbar id="status-bar">
+  <statusbarpanel id="windosize-statuspanel" label="Windosize" context="windosize-statuspanel-menu"/>
+  <popupset>
+   <menupopup id="windosize-statuspanel-menu" position="before_end" onpopupshowing="windosize.ShowMenu()"/>
+  </popupset>
+ </statusbar>
 </overlay>

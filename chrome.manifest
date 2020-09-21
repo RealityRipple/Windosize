@@ -1,23 +1,23 @@
-content	windosize	      chrome/content/
-locale	 windosize	ca-AD chrome/locale/ca-AD/
-locale	 windosize	cs-CZ chrome/locale/cs-CZ/
-locale		windosize	de-DE	chrome/locale/de-DE/
-locale		windosize	en-US	chrome/locale/en-US/
-locale		windosize	es-ES	chrome/locale/es-ES/
-locale		windosize	fr-FR	chrome/locale/fr-FR/
-locale		windosize	hu-HU	chrome/locale/hu-HU/
-locale		windosize	it-IT	chrome/locale/it-IT/
-locale		windosize	ja-JP	chrome/locale/ja-JP/
-locale		windosize	ko-KR	chrome/locale/ko-KR/
-locale		windosize	mk-MK	chrome/locale/mk-MK/
-locale		windosize	nl-NL	chrome/locale/nl-NL/
-locale		windosize	pl	   chrome/locale/pl/
-locale		windosize	pl-PL	chrome/locale/pl-PL/
-locale		windosize	pt-BR	chrome/locale/pt-BR/
-locale		windosize	sr-RS	chrome/locale/sr-RS/
-locale		windosize	sr-RS	chrome/locale/sv-SE/
-locale		windosize	tr-TR	chrome/locale/tr-TR/
-locale		windosize	vi-VN	chrome/locale/vi-VN/
-locale		windosize	zh-CN	chrome/locale/zh-CN/
-locale		windosize	zh-TW	chrome/locale/zh-TW/
-overlay	chrome://browser/content/browser.xul	chrome://windosize/content/windosize.xul
+content windosize       chrome/content/
+locale  windosize ca-AD chrome/locale/ca-AD/
+locale  windosize cs-CZ chrome/locale/cs-CZ/
+locale  windosize de-DE chrome/locale/de-DE/
+locale  windosize en-US chrome/locale/en-US/
+locale  windosize es-ES chrome/locale/es-ES/
+locale  windosize fr-FR chrome/locale/fr-FR/
+locale  windosize hu-HU chrome/locale/hu-HU/
+locale  windosize it-IT chrome/locale/it-IT/
+locale  windosize ja-JP chrome/locale/ja-JP/
+locale  windosize ko-KR chrome/locale/ko-KR/
+locale  windosize mk-MK chrome/locale/mk-MK/
+locale  windosize nl-NL chrome/locale/nl-NL/
+locale  windosize pl    chrome/locale/pl/
+locale  windosize pl-PL chrome/locale/pl-PL/
+locale  windosize pt-BR chrome/locale/pt-BR/
+locale  windosize sr-RS chrome/locale/sr-RS/
+locale  windosize sr-RS chrome/locale/sv-SE/
+locale  windosize tr-TR chrome/locale/tr-TR/
+locale  windosize vi-VN chrome/locale/vi-VN/
+locale  windosize zh-CN chrome/locale/zh-CN/
+locale  windosize zh-TW chrome/locale/zh-TW/
+overlay chrome://browser/content/browser.xul chrome://windosize/content/windosize.xul

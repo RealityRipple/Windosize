@@ -4,19 +4,18 @@
   <em:name>Windosize</em:name>
   <em:id>{8DA26D99-C9FC-53AF-A172-AA78417EB721}</em:id>
   <em:version>1.9</em:version>
-	 <em:type>2</em:type>
-  <!-- Pale Moon -->
+  <em:type>2</em:type>
   <em:targetApplication>
    <Description>
     <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
     <em:minVersion>25.0a1pre</em:minVersion>
-    <em:maxVersion>29.*</em:maxVersion>
+    <em:maxVersion>28.*</em:maxVersion>
    </Description>
   </em:targetApplication>
   <em:description>Provides a menu and status bar to resize the window outer dimensions to a specific size.</em:description>
   <em:homepageURL>https://realityripple.com/Software/Mozilla-Extensions/Windosize/</em:homepageURL>
   <em:updateURL>https://realityripple.com/Software/Mozilla-Extensions/Windosize/update.rdf</em:updateURL>
-	 <em:optionsURL>chrome://windosize/content/customize.xul</em:optionsURL>
+  <em:optionsURL>chrome://windosize/content/customize.xul</em:optionsURL>
   <em:creator>RealityRipple</em:creator>
   <em:developer>Brian Mathis</em:developer>
  </Description>
