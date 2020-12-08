@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <overlay id="windosize" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
- <script rc="chrome://windosize/content/common.js"></script>
+ <script src="chrome://windosize/content/common.js"></script>
  <script src="chrome://windosize/content/windosize.js"></script>
  <statusbar id="status-bar">
   <statusbarpanel id="windosize-statuspanel" label="Windosize" context="windosize-statuspanel-menu"/>
