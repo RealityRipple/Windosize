@@ -3,7 +3,7 @@
  <Description about="urn:mozilla:install-manifest">
   <em:name>Windosize</em:name>
   <em:id>{8DA26D99-C9FC-53AF-A172-AA78417EB721}</em:id>
-  <em:version>2.0</em:version>
+  <em:version>2.1</em:version>
   <em:type>2</em:type>
   <em:targetApplication>
    <Description>
